@@ -4,6 +4,8 @@ A mod for Sword Coast Legends that adds Priestess of Lolth ability tree for Cler
 ## Spell list
 
 **Conjure Spider :** Summons a spider from the Demonweb Pits, with bonuses to Strength, Constitution, and Dexterity equal to the caster's Wisdom modifier. The summoned creature will match the caster's level, up to level 6,12,20. The animal will remain by the caster's side until defeated, 120 seconds have passed, or the spell is used again.
+
+**Spider Swarm :** Summons 4 spiders from the Demonweb Pits, with bonuses to Strength, Constitution, and Dexterity equal to the caster's Wisdom modifier. The summoned creatures will match the caster's level, up to level 20. The spiders will remain by the caster's side until defeated, 30 seconds have passed, or the spell is used again.
  
 **Disciple of Lolth (Cantrip) :** Infuses the caster's weapon with poison with each strike. When the caster hits a creature with this attack, it must succeed on a DC 10(+WIS+Proficiency) Constitution saving throw or take poison damage and poison damage over time for 60 seconds.
  
@@ -32,3 +34,7 @@ For exemple, if the mod folder is named `PriestessOfLolth`, here what you should
     }
 }
 ```
+
+## Changelog
+
+**2016-01-14 -** Added new spell Spider Swarm that summons 4 demonweb spiderlings for 30sec. Required Summon Spider rank 3.
